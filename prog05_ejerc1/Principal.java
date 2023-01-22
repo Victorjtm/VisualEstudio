@@ -9,7 +9,7 @@ import java.time.LocalDate;
 import java.time.Period;
 import java.util.Date;
 import static prog05_ejerc1_util.MetodosEstaticos.*;
-
+// PRGOGRAMA ENTRADA Y SALIDA VEHICULOS
 /**
  *
  * @author vjtej
@@ -42,6 +42,7 @@ public class Principal {
                 try {
                     opcion = Integer.parseInt(opp);
                 } catch (Exception e) {
+                    System.out.println("TAREA PROGRAMACION 05");
                     System.out.println("BASE DE DATOS DE VEHICULO");
                     System.out.println("Debe introducir una opcion del 1 al 9");
                     System.out.println("Intentelo de nuevo");
